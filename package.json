@@ -54,6 +54,7 @@
   },
   "scripts": {
     "start": " react-scripts start",
+    "build":"react-scripts build",
     "dev": "nodemon server.js & react-scripts start & wait"
   },
   "eslintConfig": {
