@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/GHAITHBT/PRFRTEST/precache-manifest.fe0c89d21a039742ee1dbbc441582687.js"
+  "/PRFRTEST/precache-manifest.d90ecd809ab782ddf7ea9f693a6bcfeb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/GHAITHBT/PRFRTEST/index.html", {
+workbox.routing.registerNavigationRoute("/PRFRTEST/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
